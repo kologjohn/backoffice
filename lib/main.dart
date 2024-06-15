@@ -14,7 +14,7 @@ class ContUnderstand extends StatelessWidget {
     double screenHeight = MediaQuery.of(context).size.height;
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-       home: SingleChildScrollView(child: EcommerceKpi()),
+       home: EcommerceKpi(),
     );
   }
 }
